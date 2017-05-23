@@ -3,10 +3,10 @@
 #------------------------------------------------------------
 
 # Which carpentry is this ("swc", "dc", or "lc")?
-carpentry: "swc"
+carpentry: "dc"
 
 # Overall title for pages.
-title: "Workshop Title"
+title: "Data Carpentry Workshop"
 
 # Contact email address.
 email: lessons@software-carpentry.org
@@ -20,7 +20,7 @@ kind: "workshop"
 
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
-repository: <USERNAME>/<PROJECT>
+repository: <Pl8to>/<2017-05-23-smith>
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
@@ -45,8 +45,8 @@ post_survey: "https://www.surveymonkey.com/r/swc_post_workshop_v1?workshop_id="
 start_time: 0
 
 # Specify that things in the episodes collection should be output.
-collections:
-  episodes:
+collections: Unix shell 
+  episodes: Create files and directories
     output: true
     permalink: /:path/
   extras:
